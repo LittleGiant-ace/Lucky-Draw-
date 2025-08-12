@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: lucky-draw-contract
+            expected-sender: ST7G5QAVFC46HYNGK4SY48VHTDJ2APDJ4K61A0Q8
+            cost: 10110
+            path: "contracts\\lucky-draw-contract.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
