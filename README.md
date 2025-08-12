@@ -20,6 +20,8 @@ All rules are enforced on-chain to ensure fairness.
 - Allow multiple prize pools with different entry fees.
 - Include a function to distribute the prize to the winner automatically.
 
-## 5. Contract Address
-`SP000000000000000000002Q6VF78`
+## 5. Contract 
 <img width="1920" height="1200" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/416a1bb3-edcf-4ee9-a9bd-69163d25faec" />
+
+## 6. Contract Address
+ST7G5QAVFC46HYNGK4SY48VHTDJ2APDJ4K61A0Q8.lucky-draw-contract
